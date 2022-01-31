@@ -1,0 +1,14 @@
+{
+  "name": "com.asim.extensions.2d",
+  "version": "1.0.0",
+  "displayName": "Asim Extension 2D",
+  "description": "Asim Extension 2D",
+  "unity": "2020.3",
+  "unityRelease": "26f1",
+  "keywords": [
+    "asim",
+    "extension",
+    "2d"
+  ],
+  "type": "library"
+}

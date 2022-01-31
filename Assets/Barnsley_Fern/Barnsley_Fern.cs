@@ -21,14 +21,14 @@ public class Barnsley_Fern : MonoBehaviour
     int dotsPerFrame = 100;
     void OnGUI()
     {
-        _2DExtension.SetBGColor(Color.white);
+        asim.extension.Extension2D.SetBGColor(Color.white);
         for (int i = 0; i < dotsPerFrame; i++)
         {
             //Note that the complete fern is within the range −2.1820 < x < 2.6558 and 0 ≤ y < 9.9983.
             float x = MathExtension.Map(currentPoint.x, -2.1820f, 2.6558f, 0, Screen.width);
             float y = MathExtension.Map(currentPoint.y, 0, 9.9983f, Screen.height, 0);
 
-            _2DExtension.DrawDot(new Vector2(x,y), currentSize,Color.black,Color.black, currentSize.x);
+            asim.extension.Extension2D.DrawDot(new Vector2(x,y), currentSize,Color.black,Color.black, currentSize.x);
             currentPoint = GetNextBarnsleyPoint(currentPoint);
         }
     }
