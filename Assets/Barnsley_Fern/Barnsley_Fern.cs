@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-using asim.extensions._2d;
+using asim.unity.extensions._2d;
 
 /// <summary>
 /// https://en.wikipedia.org/wiki/Barnsley_fern
